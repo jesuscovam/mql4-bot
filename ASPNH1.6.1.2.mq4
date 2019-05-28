@@ -1,7 +1,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Jesus Cova"
 #property link      "https://www.github.com/jesuscovam"
-#property version   "1.2"
+#property version   "1.6.2"
 #property strict
 
 
@@ -60,7 +60,7 @@ void OnTick()
    }
    
 
-   Print("Hora Local: ", TimeCurrent());
+   Print("Hora Local: ", TimeLocal());
    Print("(Tiempo del servidor: ", Hour(), "hrs con ", Minute(),  " minutos) Horas Deseadas: 0, 4, 8, 12, 16, y 20");
    return;
    
